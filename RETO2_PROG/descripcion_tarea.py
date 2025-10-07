@@ -1,6 +1,8 @@
-# Se integrará una lista con las constantes 
+# Se integrará una lista con las constantes y un diccionario con datos importantes de la simulación
 
-# Lista vacía
+prototipo = {
+    "cohete" : "de combustión líquida"
+    }
 simulacion = ["objetivo altitud", "consumo etapa 1", "consumo etapa 2", "Incremento A1", "Imcremento A2"]
 
 def sim_cohete(combustible_e1, combustible_e2):
@@ -15,17 +17,22 @@ def sim_cohete(combustible_e1, combustible_e2):
     etapa = 1
 
     while altitud < objetivo_alt:
+        print(simulacion[0])
         if etapa == 1:
             if combustible_e1 > 0:
                 combustible_e1 -= consumo_1
+                print(simulacion[1])
                 altitud += IA1
+                print(simulacion[3])
                 minuto += 1
             else:
                 etapa = 2
         elif etapa == 2:
             if combustible_e2 > 0:
                 combustible_e2 -= consumo_2
+                print(simulacion[2])
                 altitud += IA2
+                print(simulacion[4])
                 minuto += 1
             else:
                 print("\nEl cohete se quedó sin combustible en la etapa 2.")
