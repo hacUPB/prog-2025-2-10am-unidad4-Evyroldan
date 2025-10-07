@@ -6,9 +6,15 @@ rendimiento_simulación = {
         "Altura": 43,  # metros
         "Diámetro": 7,  # metros
         "Fairing": 5,  # metros
-        "regimen_ascenso1": 5  # km/minuto
+    },
+    "Altitud": {  # 200 km
+        "velocidad_despegue1": 5, # km/min
+        "velocidad_despegue2": 3, # km/min
+        "velocidad_ascenso": 520,
+        "regimen_ascenso": 650
     }
 }
+
 
 
 
