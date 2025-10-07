@@ -1,8 +1,8 @@
 # Se integrará una lista con las constantes y un diccionario con datos importantes de la simulación
 
 prototipo = {
-    "cohete" : "de combustión líquida"
-    }
+    "cohete" 
+}
 simulacion = ["objetivo altitud", "consumo etapa 1", "consumo etapa 2", "Incremento A1", "Imcremento A2"]
 
 def sim_cohete(combustible_e1, combustible_e2):
@@ -52,3 +52,4 @@ while True:
     if continuar == "NO":
         print("Simulación finalizada.")
         break
+    
