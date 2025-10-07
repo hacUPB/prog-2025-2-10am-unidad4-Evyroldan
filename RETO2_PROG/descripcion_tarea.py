@@ -10,11 +10,10 @@ rendimiento_simulación = {
     "Altitud": {  # 200 km
         "velocidad_despegue1": 5, # km/min
         "velocidad_despegue2": 3, # km/min
-        "velocidad_ascenso": 520,
-        "regimen_ascenso": 650
+        "Consumo_comb1": 800, #km/min
+        "Consumo_comb2": 500, #km/min
     }
 }
-
 
 
 
