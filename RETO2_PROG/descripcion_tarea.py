@@ -22,11 +22,10 @@ def sim_cohete(etapas):
         print("El cohete se quedó sin combustible en la etapa {etapa_actual + 1}.")
         print("Altitud alcanzada:", altitud, "km")
 
-# Bucle principal
 while True:
     print("Simulación de lanzamiento de cohete")
 
-    # Lista de diccionarios: una por cada etapa
+    # Diccionarios: una por cada etapa
     etapas = [
         {
             "nombre": "Etapa 1",
@@ -44,7 +43,7 @@ while True:
 
     sim_cohete(etapas)
 
-    continuar = input("\n¿Desea realizar otra simulación? (SI/NO): ").upper()
+    continuar = input("¿Desea realizar otra simulación? (SI/NO): ").upper()
     if continuar == "NO":
         print("Simulación finalizada.")
         break
