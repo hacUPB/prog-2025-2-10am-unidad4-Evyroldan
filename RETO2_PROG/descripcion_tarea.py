@@ -1,5 +1,7 @@
 # Simulaciones de lanzamiento de cohete
 
+#Usamos diccionarios para ir registrando y agregando etapas sin problema. Además se cambiaron unas variables que estaban en el código original, ahora como "etapas".
+
 def sim_cohete(etapas):
     objetivo_alt = 200
     altitud = 0
